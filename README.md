@@ -1,5 +1,4 @@
-# CarND---Project-8
-PID Controller
+# PID Controller
 
 Goal of this project was to 
 - implement a PID controller for steering and speed of the car on a race track. 
