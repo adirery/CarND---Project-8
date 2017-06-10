@@ -37,8 +37,8 @@ int main()
 	PID pid_speed;
   
 	// Initializing PID Controller parameters
-	pid_steer.Init(0.1, 0.0001, 4.0); // Kp, Kd, Ki
-	pid_speed.Init(0.35, 0.0, 0.0); // Kp, Kd, Ki
+	pid_steer.Init(0.134611, 0.000270736, 3.05349); // Kp, Kd, Ki
+	pid_speed.Init(0.316731, 0.0000, 0.0226185); // Kp, Kd, Ki
 	// Initializing desired speed
 	double desired_speed = 15.0;
 
